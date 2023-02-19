@@ -1,0 +1,10 @@
+body {
+    background-color: rgb(235, 235, 162);
+    margin: 1px;
+}
+
+div {
+    background-color: white;
+    padding: 1px;
+    padding-bottom: 1em;
+}
