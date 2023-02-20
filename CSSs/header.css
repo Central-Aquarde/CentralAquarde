@@ -1,0 +1,47 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Caveat&family=Gajraj+One&family=Permanent+Marker&display=swap');/*font-family: 'Permanent Marker', cursive;*/
+
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+:root {
+    --cor1: #13b4d9;
+    --cor2: #ea2727;
+    --fontmain: 'Permanent Marker', cursive;
+}
+
+header {
+    background-image: linear-gradient(to top, var(--cor1), var(--cor2));
+    text-align: center;
+    padding: 10px 0px 10px 0px;
+    font-family: var(--fontmain)
+    
+}
+
+nav {
+    background-color: var(--cor1);
+}
+
+nav > a {
+    text-decoration: none;
+    box-shadow: 1px 1px 1px 0px black;
+    color:black;
+    margin-right: 5px;
+}
+
+nav > a:hover {
+    text-decoration: underline;
+}
+
+nav > a:active {
+    text-decoration: none;
+    box-shadow: 0px 0px 0px 0px;
+}
+
+p {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
