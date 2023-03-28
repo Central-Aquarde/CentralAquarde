@@ -3,7 +3,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Caveat&family=Gajraj+One&family=Permanent+Marker&display=swap');/*font-family: 'Permanent Marker', cursive;*/
 
 * {
-    margin: 0%;
+    margin: 0px 2px 0px 2px;
     padding: 0%;
 }
 
@@ -14,21 +14,23 @@
 }
 
 header {
+    border-radius: 5px 5px 0px 0px;
     background-image: linear-gradient(to top, var(--cor1), var(--cor2));
     text-align: center;
-    padding: 10px 0px 19px 0px;
-    font-family: var(--fontmain)
+    padding: 35px 0px 35px 0px;
+    font-size: 40px;
+    font-family: var(--fontmain);
     
 }
 
 nav {
-    background-color: var(--cor1);
+    background-color: black;
 }
 
 nav > a {
     text-decoration: none;
-    box-shadow: 1px 1px 1px 0px black;
-    color:black;
+    box-shadow: 1px 1px 3px 0px rgb(238, 238, 238);
+    color: white;
     margin-right: 5px;
 }
 

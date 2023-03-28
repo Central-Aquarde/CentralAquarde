@@ -1,13 +1,17 @@
 body {
-    background-image: url(../imagens/wallpaper001.jpg);
-    margin: 1px;
+    background-color: #B5B5B5;
+    margin: 0px;
 }
 
 main {
     background-color: white;
     width: 100%;
-    margin: -1px;
+    margin: 0px 0px 0px -1px;
+    padding: 2px 1px 0px 0px;
 }
-h1, p {
-    text-align: center;
+
+
+.texto-explica {
+    text-align: justify;
+    font-size: medium;
 }
